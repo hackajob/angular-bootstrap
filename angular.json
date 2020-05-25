@@ -35,7 +35,13 @@
           "configurations": {
             "production": {
               "optimization": true,
-              "outputHashing": "all"
+              "outputHashing": "all",
+              "sourceMap": false,
+              "extractCss": false,
+              "namedChunks": false,
+              "extractLicenses": false,
+              "vendorChunk": false,
+              "buildOptimizer": false
             }
           }
         },
