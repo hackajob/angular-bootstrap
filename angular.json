@@ -31,7 +31,7 @@
             ],
             "scripts": [],
             "optimization": false,
-            "outputHashing": "bundles"
+            "outputHashing": "all"
           }
         },
         "serve": {
