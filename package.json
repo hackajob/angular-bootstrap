@@ -3,11 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng analytics off && ng serve --port 3000 --host 0.0.0.0 --disable-host-check --prod",
-    "build": "ng build",
-    "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e"
+    "start": "ng serve --port 3000 --host 0.0.0.0 --disable-host-check"
   },
   "private": true,
   "dependencies": {
