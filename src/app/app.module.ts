@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { FormBuilder } from '@angular/forms';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -12,7 +12,7 @@ import { FormBuilder } from '@angular/forms';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormBuilder
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
